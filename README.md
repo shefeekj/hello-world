@@ -1,2 +1,2 @@
 # hello-world
-Testing maven publishing
+Testing maven compilation and publishing
