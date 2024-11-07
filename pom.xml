@@ -7,7 +7,13 @@
     <groupId>org.example</groupId>
     <artifactId>hello-world</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+<distributionManagement>
+    <repository
+        <id>github</id>
+        <url>https://maven.pkg.github.com/shefeekj/hello-world</url>
+    </repository>
+</distributionManagement>
+         
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
